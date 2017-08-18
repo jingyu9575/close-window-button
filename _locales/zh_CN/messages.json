@@ -1,0 +1,13 @@
+{
+	"extensionName": {
+		"message": "关闭窗口按钮",
+		"description": "Name of the extension."
+	},
+	"extensionDescription": {
+		"message": "关闭窗口的工具栏按钮",
+		"description": "Description of the extension."
+	},
+	"actionTitle": {
+		"message": "关闭窗口"
+	}
+}

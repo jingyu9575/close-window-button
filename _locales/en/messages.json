@@ -1,0 +1,13 @@
+{
+	"extensionName": {
+		"message": "Close Window Button",
+		"description": "Name of the extension."
+	},
+	"extensionDescription": {
+		"message": "Toolbar button to close current window",
+		"description": "Description of the extension."
+	},
+	"actionTitle": {
+		"message": "Close Window"
+	}
+}
