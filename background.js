@@ -1,5 +1,5 @@
-browser.browserAction.onClicked.addListener(async() => {
+browser.browserAction.onClicked.addListener(async () => {
 	try {
-		browser.windows.remove((await browser.windows.getCurrent({ windowTypes: ['normal'] })).id)
+		await browser.windows.remove(browser.windows.WINDOW_ID_CURRENT)
 	} catch (err) { console.error(err) }
 })

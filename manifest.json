@@ -6,7 +6,7 @@
 		}
 	},
 	"name": "__MSG_extensionName__",
-	"version": "2.0",
+	"version": "2.1",
 	"description": "__MSG_extensionDescription__",
 	"icons": {
 		"48": "icons/icon.svg"
@@ -27,9 +27,6 @@
 		"scripts": [
 			"background.js"
 		]
-	},
-	"options_ui": {
-		"page": "options.html"
 	},
 	"default_locale": "en"
 }
