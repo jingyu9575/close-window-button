@@ -14,7 +14,14 @@
 	"permissions": [],
 	"browser_action": {
 		"default_icon": "icons/icon.svg",
-		"default_title": "__MSG_actionTitle__"
+		"default_title": "__MSG_actionTitle__",
+		"theme_icons": [
+			{
+				"light": "icons/icon-light.svg",
+				"dark": "icons/icon.svg",
+				"size": 32
+			}
+		]
 	},
 	"background": {
 		"scripts": [
